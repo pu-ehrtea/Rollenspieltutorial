@@ -5,4 +5,4 @@
 - [Mythos World fix erklärt](MythosWorld/story.html)
 - [Dungeon Crawl Classics erklärt](DungeonCrawlClassics/story.html)
 
-- [Grundregeln und Foundry](how2play/story.html)
+- [Grundregeln und Foundry](How2play/story.html)
