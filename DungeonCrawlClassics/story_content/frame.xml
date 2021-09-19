@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns00001100001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns00001100101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00001100001" font="Open Sans" controllayout="npnxnanbsnfns00001100001" colorscheme="npxnabnsnfns00001100001" string_table="npxnabnsnfns00001100001" />
-    <layout name="pxabnsnfns00001100001" font="Open Sans" controllayout="pxabnsnfns00001100001" colorscheme="npxnabnsnfns00001100001" string_table="npxnabnsnfns00001100001" />
-    <layout name="npxnabnsnfns00001100001" font="Open Sans" controllayout="npxnabnsnfns00001100001" colorscheme="npxnabnsnfns00001100001" string_table="npxnabnsnfns00001100001" />
-    <layout name="npnxnanbnsnfns00001100001" font="Open Sans" controllayout="npnxnanbnsnfns00001100001" colorscheme="npxnabnsnfns00001100001" string_table="npxnabnsnfns00001100001" />
-    <layout name="pxabnsnfns00001100000" font="Open Sans" controllayout="pxabnsnfns00001100000" colorscheme="npxnabnsnfns00001100001" string_table="npxnabnsnfns00001100001" />
-    <layout name="pnxanbnsnfns00001100001" font="Open Sans" controllayout="pnxanbnsnfns00001100001" colorscheme="npxnabnsnfns00001100001" string_table="npxnabnsnfns00001100001" />
+    <layout name="npnxnanbsnfns00001100101" font="Open Sans" controllayout="npnxnanbsnfns00001100101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
+    <layout name="pxabnsnfns00001100101" font="Open Sans" controllayout="pxabnsnfns00001100101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
+    <layout name="npxnabnsnfns00001100101" font="Open Sans" controllayout="npxnabnsnfns00001100101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
+    <layout name="npnxnanbnsnfns00001100101" font="Open Sans" controllayout="npnxnanbnsnfns00001100101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
+    <layout name="pxabnsnfns00001100100" font="Open Sans" controllayout="pxabnsnfns00001100100" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
+    <layout name="pnxanbnsnfns00001100101" font="Open Sans" controllayout="pnxanbnsnfns00001100101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
+    <layout name="npnxnanbnsnfns10111000101" font="Open Sans" controllayout="npnxnanbnsnfns10111000101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
+    <layout name="npnxnanbnsnfns10110000101" font="Open Sans" controllayout="npnxnanbnsnfns10110000101" colorscheme="npxnabnsnfns00001100101" string_table="npxnabnsnfns00001100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -14,7 +16,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Dungeon Crawl Classics fix erklärt" />
+              <option name="title_text" value="DCC final" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -58,7 +60,7 @@
       </optiongroup>
       <optiongroup name="controls">
         <options>
-          <option name="volume" value="false" />
+          <option name="volume" value="true" />
           <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
@@ -83,8 +85,8 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001100001">
-      <control name="volume" enabled="false" />
+    <control_layout name="npnxnanbsnfns00001100101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -106,8 +108,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100001">
-      <control name="volume" enabled="false" />
+    <control_layout name="pxabnsnfns00001100101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -129,8 +131,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001100001">
-      <control name="volume" enabled="false" />
+    <control_layout name="npxnabnsnfns00001100101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -152,8 +154,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001100001">
-      <control name="volume" enabled="false" />
+    <control_layout name="npnxnanbnsnfns00001100101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -175,8 +177,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100000">
-      <control name="volume" enabled="false" />
+    <control_layout name="pxabnsnfns00001100100">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -198,8 +200,8 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbnsnfns00001100001">
-      <control name="volume" enabled="false" />
+    <control_layout name="pnxanbnsnfns00001100101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -221,9 +223,55 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
+    <control_layout name="npnxnanbnsnfns10111000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10110000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxnabnsnfns00001100001">
+    <colorscheme name="npxnabnsnfns00001100101">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1129,7 +1177,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxnabnsnfns00001100001">
+    <string_table name="npxnabnsnfns00001100101">
       <string id="submit">SENDEN</string>
       <string id="acc_submit">senden</string>
       <string id="check_include">Überprüfen</string>
@@ -1190,14 +1238,8 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.62BVvJ3D3Su" displaytext="Einleitung und Links" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.62BVvJ3D3Su.6FZUquT5Amb" displaytext="DCC fix erklärt" expand="false" type="slide" />
-            <slidelink slideid="_player.62BVvJ3D3Su.63t8GlDkovN" displaytext="Was ist DCC?" expand="false" type="slide" />
-            <slidelink slideid="_player.62BVvJ3D3Su.5YGLMkSLLcF" displaytext="Überblick" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.654Tal6k8VZ" displaytext="Regeln" expand="true" type="slide">
+        <slidelink slideid="_player.62BVvJ3D3Su.6FZUquT5Amb" displaytext="Einleitung" expand="false" type="slide" />
+        <slidelink slideid="_player.654Tal6k8VZ" displaytext="Regeln" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.654Tal6k8VZ.6G55neI0Dci" displaytext="Charakterbogen (ohne Magie)" expand="false" type="slide" />
             <slidelink slideid="_player.6dZUAYt6FWP.6fOovJYSV5G" displaytext="Grundregeln" expand="false" type="slide" />
@@ -1211,10 +1253,21 @@
             <slidelink slideid="_player.6dZUAYt6FWP.6l3MdDkReYj" displaytext="Tod" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6caTBxrer5K" displaytext="Nächster Schritt?" expand="true" type="slide">
+        <slidelink slideid="_player.6caTBxrer5K" displaytext="Nächster Schritt?" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.6caTBxrer5K.62HSkxO88pf" displaytext="Und nach der Stufe 0?" expand="false" type="slide" />
             <slidelink slideid="_player.6adf9osjJQD.6VAY1GbFLSq" displaytext="Nützliche Links" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5zzgZ037Rj9" displaytext="Videos" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5zzgZ037Rj9.5iUUT754Y01" displaytext="Anmeldung" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZRk8ATT23X.6OzLJ4Mm5Ue" displaytext="Oberfläche" expand="false" type="slide" />
+            <slidelink slideid="_player.5aQo3XNIlZy.6gSGquDZEud" displaytext="Charakterbogen" expand="false" type="slide" />
+            <slidelink slideid="_player.6h8eAUpCrE9.6OTyACqg4p2" displaytext="Kampf" expand="false" type="slide" />
+            <slidelink slideid="_player.5mFbBa0Bnsh.6CbtamW1TVQ" displaytext="Tipp" expand="false" type="slide" />
+            <slidelink slideid="_player.5lq39Vpj8MJ.6Tw5t2IZz3X" displaytext="Inventar" expand="false" type="slide" />
+            <slidelink slideid="_player.6FoAqZ97tGp.6rZVOh2uIMA" displaytext="Magie" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
