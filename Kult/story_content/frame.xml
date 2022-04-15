@@ -7,6 +7,7 @@
     <layout name="npnxnanbnsnfns00001000001" font="Open Sans" controllayout="npnxnanbnsnfns00001000001" colorscheme="npxnabnsnfns00001000001" string_table="npxnabnsnfns00001000001" />
     <layout name="pxabnsnfns00001000000" font="Open Sans" controllayout="pxabnsnfns00001000000" colorscheme="npxnabnsnfns00001000001" string_table="npxnabnsnfns00001000001" />
     <layout name="pnxanbnsnfns00001000001" font="Open Sans" controllayout="pnxanbnsnfns00001000001" colorscheme="npxnabnsnfns00001000001" string_table="npxnabnsnfns00001000001" />
+    <layout name="npnxnanbnsnfns10111000001" font="Open Sans" controllayout="npnxnanbnsnfns10111000001" colorscheme="npxnabnsnfns00001000001" string_table="npxnabnsnfns00001000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -207,6 +208,29 @@
       <control name="previous" enabled="true" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -1192,7 +1216,6 @@
       <links>
         <slidelink slideid="_player.6NHYi1T1AXm.6Kor9M7ksB9" displaytext="Einleitung" expand="false" type="slide" />
         <slidelink slideid="_player.5wkxc4hbEHM.5tcV1K3510n" displaytext="Regeln" expand="false" type="slide" />
-        <slidelink slideid="_player.62Y1xQHdINI.61Ys0NFhPSa" displaytext="Szenario" expand="false" type="slide" />
         <slidelink slideid="_player.67N1hIbUmxM.6HUyRxr70oe" displaytext="Anmeldung" expand="false" type="slide" />
         <slidelink slideid="_player.5c0Dxp5JA2x.6GakjG6VDYI" displaytext="Überblick" expand="false" type="slide" />
         <slidelink slideid="_player.5ukfkl6dsO7.6IGtb2p1ZY8" displaytext="Charakterbogen,Würfeln" expand="false" type="slide" />
